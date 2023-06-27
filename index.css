@@ -1,0 +1,83 @@
+.code{
+/* border: solid; */
+margin: 300px;
+margin-left: 500px;
+border: hidden;
+padding: 25px;
+display: inline-block;
+background: repeating-linear-gradient(red , blue ,green);
+border-radius: 55px;
+
+
+
+
+
+
+}
+.editor{
+font-size: 40px;
+margin-top: -55px;
+margin-left: 24px;
+
+}
+.page{
+    font-family: 'Times New Roman', Times, serif;
+text-transform: capitalize;
+   
+
+}
+body{
+    background: linear-gradient(blue, white,brown );
+}
+.one,.two{
+    margin-bottom: 20px;
+
+}
+input{
+    margin-left: 10px;
+}
+::placeholder{
+    text-transform: capitalize;
+}
+button{
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 17px;
+    margin-left: 50px;
+    border: inset;
+    cursor: pointer;
+}
+input[type=reset]{
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 17px;
+    margin-left: 50px;
+    border: inset;
+   cursor: pointer;
+    
+
+}
+.account{
+    margin-left:70px;
+    margin-top: 35px;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: capitalize;
+   
+  
+}
+a{
+    text-decoration: none;
+
+
+}
+a:hover{
+    color: wheat;
+
+}
+@media screen and(max-width:445px){
+body{
+    background-color:black;
+}
+
+}

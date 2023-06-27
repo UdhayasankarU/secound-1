@@ -1,0 +1,94 @@
+body{
+background:radial-gradient(#E38AAE,#E77471,#D4AF37);
+}
+.account{
+    border: hidden;
+    margin: 400px;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 20px;
+    background:linear-gradient(rgb(226, 210, 120),rgb(134, 101, 52),rgb(209, 137, 22));
+    border-radius: 30px;
+
+
+}
+.create{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+
+}
+.create:hover{
+    background:linear-gradient(#F9DB24,#F6BE00);
+    color: rgb(233, 148, 21);
+    border-radius: 200px;
+}
+.name, .email,.pass,.word,.age,.date,.phone,.place,.gender,.message,.check{
+    margin-bottom: 20px;
+}
+.account:hover{
+    background-color:#728FCE;
+    border-radius: 40PX;
+}
+label{
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+::placeholder{
+    text-transform: capitalize;
+}
+input:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 15px;
+}
+input{
+  border-radius: 10px;
+  border: inset;
+}
+textarea{
+    border-radius: 10px;
+  border: inset;
+}
+textarea:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 15px;
+}
+input[type=submit ]{
+
+    background:radial-gradient(#E38AAE,#E77471,#D4AF37);
+    padding: 10px;
+    font-size: 15px;
+    font-family:  'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-weight: 900;
+    
+}input[type=reset ]{
+
+    background:radial-gradient(#E38AAE,#E77471,#D4AF37);
+    padding: 10px;
+    font-size: 15px;
+    font-family:  'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-weight: 900;
+}
+   .submit{
+       margin-left: 45px;
+   }
+   input[type=reset ]:hover{
+    background:linear-gradient(#F9DB24,#F6BE00);
+
+   }
+   input[type=submit ]:hover{
+    background:linear-gradient(#F9DB24,#F6BE00);
+
+   }
+   @media screen and(max-width:445px){
+    body{
+        background-color:black;
+    }
+    
+    }
